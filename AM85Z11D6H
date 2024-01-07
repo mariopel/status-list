@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://mariopel.github.io/status-list/AM85Z11D6H",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://mariopel.github.io/status-list/AM85Z11D6H#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MkjiHPCbZLPkRVLb1YRhZJzLi7yUEabneFz6SAmvs3igsV",
+  "issuanceDate": "2024-01-07T02:14:30.425Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-01-07T02:14:30Z",
+    "verificationMethod": "did:key:z6MkjiHPCbZLPkRVLb1YRhZJzLi7yUEabneFz6SAmvs3igsV#z6MkjiHPCbZLPkRVLb1YRhZJzLi7yUEabneFz6SAmvs3igsV",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4kHgV6sbRuvTNEeJ4rKZLQEo9xsDremuiyozeV543y7QLooyV37G2GHaeTSugmaZsTqNDLG7j9je5Q4PAFzNh3j7"
+  }
+}
